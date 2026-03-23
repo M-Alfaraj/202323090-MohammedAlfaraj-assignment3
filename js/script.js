@@ -12,18 +12,15 @@ function toggleTheme(){
     if(body.classList.contains("darkMode")){
         buttonSymbol.textContent = "☀️";
     }
+
     else{
         buttonSymbol.textContent = "🌙";
     }
 }
 
 function greetingMessage(){
-    //alert message shows greeting once every session
-    if(sessionStorage.getItem("greetingsDone")) {
-        return;
-    }
-    
     //variables to store the current hour and message for the greetings
+    const greetingElement = document.getElementById("greeting");
     const currentHour = (new Date()).getHours();
     let message = "";
 
@@ -42,10 +39,11 @@ function greetingMessage(){
         message = "Greetings and good night!";
     }
 
-    alert(message)
-
-    //marks as true to make sure that the message is not shown more than once
-    sessionStorage.setItem("greetingsDone", "true")
+    greetingElement.textContent = message
 }
 
-window.addEventListener("DOMContentLoaded",greetingMessage)
+window.addEventListener("DOMContentLoaded", function() {
+    greetingMessage();
+    const themeButton = document.getElementById("buttonTheme");
+    themeButton.addEventListener("click", toggleTheme);
+});

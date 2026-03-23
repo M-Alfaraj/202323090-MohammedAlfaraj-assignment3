@@ -69,9 +69,11 @@ nav {
 
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     list-style: none;
-    gap: 60px;
+    gap: 100px;
     margin: 15px 0;
     padding: 10px;
 }
@@ -185,9 +187,15 @@ form {
     
 }
 
+.sectionPhrase {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #555555;
+}
+
 input, textarea {
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     border-radius: 5px;
     transition: border-color 0.3s;
 }
@@ -200,14 +208,18 @@ input:focus, textarea:focus {
 button{
     background-color: #153545;
     color: white;
-    padding: 15px;
-    margin-left: 180px;
-    width: 30%;
+    padding: 12px 18px;
     font-weight: bold;
     border: none;
+    border-radius: 10px;
     transition: background-color 0.3s;
     cursor: pointer;
 }
+
+form button {
+        width: 100%;
+        margin-left: 0;
+    }
 
 button:hover {
     background-color: #0d82ff;
@@ -236,6 +248,16 @@ button:hover {
 }
 
 /*Responsive Layout*/
+@media (max-width: 700px) {
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+}
+
 @media (min-width: 700px) {
 
     /*Skills section styles*/
@@ -273,6 +295,18 @@ button:hover {
         max-width: 100%;
         padding: 30px;
     }
+    
+    form button {
+        width: 40%;
+        align-self: center;
+    }
+}
+
+/* greeting message CSS*/
+#greeting {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /*Dark mode toggle style*/
@@ -302,4 +336,8 @@ button:hover {
     background-color: #333;
     padding-bottom: 15px;
     border-radius: 15px;
+}
+
+.darkMode .sectionPhrase {
+    color: #dddddd;
 }
