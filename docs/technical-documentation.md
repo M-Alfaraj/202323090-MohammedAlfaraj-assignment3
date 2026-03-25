@@ -154,5 +154,5 @@ Code for formValidation:
           });
         }
         
-##Learning Outcome
+## Learning Outcome
 I have improved my understanding in JavaScript and have understood the usefulness of localStorage to save changes by the user and create a validation system to  make my website more interactive and user friendly. 
