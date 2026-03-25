@@ -13,11 +13,6 @@ This is my assignment 2 portfolio website, which is a continuation of assignment
 - Saved Current Theme using LocalStorage
 - Success and Failure message for form feedback
 
-## Technologies and Tools used:
-- HTML
-- CSS
-- JavaScript
-
 ## How to Run Locally:
 1. Clone the repository
 2. Open the project folder in VS code
@@ -31,17 +26,4 @@ The only AI tool used was ChatGPT and it helped with:
 - Reviewing documentation and suggesting improvements
 For more details, check doc/ai-usage-report.md.
 
-## Project Structures
-assignment-2/  
-├── README.md  
-├── index.html  
-├── css/  
-│   └── styles.css  
-├── js/  
-│   └── script.js  
-├── assets/  
-│   └── images/  
-├── docs/  
-│   ├── ai-usage-report.md  
-│   └── technical-documentation.md  
-└── .gitignore
+
