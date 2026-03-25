@@ -34,7 +34,7 @@ assignment-2/
 - Saved Current Theme using LocalStorage
 - Success and Failure message for form feedback
 
-##Javascirpt Code for Assignment 2
+## Javascirpt Code for Assignment 2
 
 Code for toggleTheme (Added localStorage):
 
