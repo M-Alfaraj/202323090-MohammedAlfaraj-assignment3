@@ -23,7 +23,7 @@ function toggleTheme(){
 }
 
 //function to load the theme from localstorage
-function themeDataHandeling(){
+function themeDataHandling(){
     const currTheme =  localStorage.getItem("theme");
     const buttonSymbol = document.getElementById("buttonTheme");
 
@@ -142,7 +142,7 @@ function formValidation(){
 
 //Run all functions on startup after the content loads
 window.addEventListener("DOMContentLoaded", function() {
-    themeDataHandeling()
+    themeDataHandling()
     greetingMessage();
     
     const themeButton = document.getElementById("buttonTheme");
