@@ -17,10 +17,10 @@ The website adjusts its layout based on the screen size using media queries to i
 ### 2. Light and Dark Mode Theme Toggle with localStorage
 A button in the navigation bar allows the user to switch between light and dark mode.
 JavaScript is used to:
-- switches between light and dark mode.
-- updates the button icon.
-- saves the selected theme using localStorage.
-- loads the saved theme when the page is reloaded.
+- switch between light and dark mode.
+- update the button icon.
+- save the selected theme using localStorage.
+- load the saved theme when the page is reloaded.
 
 ### 3. Form Validation and Feedback
 The contact form is validated using JavaScript.
