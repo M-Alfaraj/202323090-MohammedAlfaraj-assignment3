@@ -49,7 +49,7 @@ A greeting message is displayed above the navigation bar depending on the time o
 ### `toggleTheme()`
 Switches between light and dark mode and saves the selected theme in localStorage.
       
-### `themeDataHandeling()`
+### `themeDataHandling()`
 Loads the last theme selected by the user when the page reloads.
 
 ### `greetingMessage()`
