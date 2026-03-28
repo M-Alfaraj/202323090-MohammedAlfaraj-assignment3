@@ -1,7 +1,7 @@
 # AI Usage Report
 
 ## Tools Used & Use Cases
-- ChatGPT was used to generate code snippets to help solve problems and give examples of topics about Javascript and CSS. I mainly used it for:
+- ChatGPT was used to generate code snippets to help solve problems and give examples of topics about JavaScript and CSS. I mainly used it for:
 1. help implement localStorage for saving current theme. 
 2. help in creating the contact form validation system
 3. Debugging code and highlighting errors
