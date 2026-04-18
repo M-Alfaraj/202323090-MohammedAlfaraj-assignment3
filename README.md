@@ -4,7 +4,6 @@
 This is my Assignment 3 portfolio website, which is a continuation of Assignments 1 and 2.
 The goal of this assignment is to improve the portfolio website by fixing previous issues with Assignment 2, adding advanced functionality, stronger JavaScript logic, API integration, better state management, and performance improvements while also keeping the design responsive, user-friendly, and clear for different devices.
 
-
 ## Features
 - Responsive Layout
 - Light and Dark Mode Theme Toggle
@@ -21,12 +20,10 @@ The goal of this assignment is to improve the portfolio website by fixing previo
 - Hover effects on cards and transitions
 - Lazy loading for images
 
-
 ## How to Run Locally
 1. Clone the repository.
 2. Open the project folder in VS Code.
 3. Open `index.html` using a browser or a local server.
-
 
 ## AI Usage Summary
 The main AI tool used in this assignment was ChatGPT. It helped me with:
