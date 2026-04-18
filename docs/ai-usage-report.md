@@ -8,7 +8,7 @@
 
 
 ### Challenges
-. 
+ 
 
 ## Learning Outcome
 Using ChatGPT I learned:
