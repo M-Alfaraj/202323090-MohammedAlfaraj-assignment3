@@ -7,7 +7,7 @@ It was used for the following:
 - Suggesting ideas for features that will match each assignment task, such as API integration and visitor name storage. 
 - Helping explain how to connect the GitHub API using `fetch()` and how to handle errors when the request fails.
 - Improving the search system by adding filtering and sorting methods using data attributes.
-- Helping create the visitor name saving system by connecting it to the form system 
+- Helping create the visitor name saving system by connecting it to the form system
 - Helping review code and documentation to discover bugs or other issues. 
 
 ## Benefits & Challenges
@@ -33,4 +33,4 @@ Using ChatGPT, I learned:
 - How to create a counter and visitor name saving system
 
 ## Responsible Use & Modifications
-All AI-generated code and suggestions from ChatGPT were reviewed and modified based on my understanding rather than being used unmodified. I also added comments to explain and help make it easier to find code related to certain parts of HTML, CSS, and JavaScript files. AI was also used to suggest new ideas and improvements to take into consideration to help make the page better, adjustments and ideas from ChatGPT were taken with consideration and all were coded by me based on my understanding.
+All AI-generated code and suggestions from ChatGPT were reviewed and modified based on my understanding rather than being used unmodified. I also added comments to explain and help make it easier to find code related to certain parts of HTML, CSS, and JavaScript files. AI was also used to suggest new ideas and improvements to take into consideration to help make the page better, adjustments and ideas from ChatGPT were taken into consideration and all were coded by me based on my understanding.
